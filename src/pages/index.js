@@ -1,13 +1,25 @@
 import React from "react"
+import { Link } from 'gatsby'
 import Layout from "../components/layout"
+import indexS from '../components/index.module.scss'
 
 
-export default () => <Layout>
+export default () => <Layout >
+  <div className = {indexS.logo}>
+     
     
-    <img src={require("./president.png")} alt="" />
-    <h1>Presidential Initiative</h1>
-    <h2>for Artificial Intelligence & Computing (PIAIC)</h2>
+    <img src={require("./president.png")} width="380px" height="auto" alt="" />
+    </div>
+    <div className = {indexS.title}>
+    <p>Presidential Initiative</p>
+    </div>
+    <div className = {indexS.title2}>
+    <p>for Artificial Intelligence & Computing (PIAIC)</p>
+    </div>
+    <div className = {indexS.title3}>
     <p>The mission of PIAIC is to reshape Pakistan by revolutionizing education, research, and business by adopting latest, cutting-edge technologies. Experts are calling this the 4th industrial revolution. We want Pakistan to become a global hub for AI, data science, cloud native computing, edge computing, blockchain, augmented reality, and internet of things.</p>
+    </div>
+    
     
     <ul>
         <li><button type="button">Apply</button></li>
@@ -50,6 +62,7 @@ export default () => <Layout>
     <div class="boxed">
     <h3>ANDROID</h3>
     </div>
+    
 
 </Layout>
 

@@ -1,0 +1,43 @@
+.header{
+     /* Black background color */
+     background-color:#4a684a;
+     padding-right: 60px;
+     
+    
+    //  position: left; /* Make it stick/fixed */
+    //  top: 35px; /* Hide the navbar 50 px outside of the top view */
+    //  width: 100%; /* Full width */
+    //  transition: top 0.3s; /* Transition effect when sliding down (and up) */
+    //  margin: 0;
+    // padding-left: 0;
+
+}
+
+
+
+
+.navbar{
+    
+    
+    list-style-type: none;
+    background-color:seagreen;
+    
+}
+
+.nav1{
+    padding-top: 1rem;
+    position : fixed;
+}
+
+.link {
+    float: right;
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 35px;
+    text-decoration: none;
+    font-size: 0.8rem;
+    padding-top: 0rem;
+    padding-bottom: 1rem;
+}
+

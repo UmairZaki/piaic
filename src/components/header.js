@@ -1,48 +1,58 @@
 import React from "react"
 import { Link } from 'gatsby'
+import HeaderS from './header.module.scss'
 
-export default () => <header>
+
+
+export default () => <header className={HeaderS.header}>
+    <div className= {HeaderS.nav1}>
+     <Link  to="/"  ><img src={require("./piaic.svg")} width="150" height="120"  alt="" /></Link>
+    </div>
+
     
-    <nav>
-        <ul>
-            <li>
-            <Link to="/"><img src={require("./piaic.svg")} alt="" /></Link>
+    <nav >
+    
+     
+        <ul className= {HeaderS.navbar}>
+            
+            <li >
+                <Link className={HeaderS.link} to="/howItsWork">WIT</Link>
             </li>
             <li>
-                <Link to="/howItsWork">How Its Work</Link>
+                <Link className={HeaderS.link} to="/apply">About</Link>
             </li>
             <li>
-                <Link to="/apply">Apply</Link>
-            </li>
-            <li>
-                <Link to="/availableProgram">Avalaible Programs</Link><ul>
-                    <li>
-                    <Link to="/artificial_intelligence">Artificial Intelligence</Link>
+                <Link className={HeaderS.link} to="/availableProgram">Avalaible Programs</Link><ul className= {HeaderS.nav1}>
+                    {/* <li>
+                    <Link className={HeaderS.link} to="/artificial_intelligence">Artificial Intelligence</Link>
                     </li>
                     <li>
-                    <Link to="/cloud_native">Cloud Native</Link>
+                    <Link className={HeaderS.link} to="/cloud_native">Cloud Native</Link>
                     </li>
                     <li>
-                    <Link to="/blockchain">Blockchain</Link>
+                    <Link className={HeaderS.link} to="/blockchain">Blockchain</Link>
                     </li>
                     <li>
-                    <Link to="/internet_of_things">Internet of Things</Link>
-                    </li>
+                    <Link className={HeaderS.link} to="/internet_of_things">Internet of Things</Link>
+                    </li> */}
                 </ul>
             </li>
             <li>
-                <Link to="/about">About</Link><ul>
-                    <li>
-                    <Link to="/thePresident">The President</Link> 
+                <Link className={HeaderS.link} to="/about">Apply</Link><ul className= {HeaderS.nav1}>
+                    {/* <li>
+                    <Link className={HeaderS.link} to="/thePresident">The President</Link> 
                     </li>
                     <li>
-                    <Link to="/managementComittee">Management Comittee</Link>
-                    </li>
+                    <Link className={HeaderS.link} to="/managementComittee">Management Comittee</Link>
+                    </li> */}
                 </ul>
             </li>
             <li>
-                <Link to="/wit">WIT</Link>
+                <Link className={HeaderS.link} to="/wit">How It Works</Link>
             </li>
         </ul>
+        
     </nav>
+    
+    
 </header>

@@ -4,25 +4,24 @@ import HeaderS from './header.module.scss'
 
 
 
-export default () => <header className={HeaderS.header}>
-    <div className= {HeaderS.nav1}>
-     <Link  to="/"  ><img src={require("./piaic.svg")} width="150" height="120"  alt="" /></Link>
-    </div>
+export default () => <header >
+    
 
     
-    <nav >
+    <nav className={HeaderS.navbar}>
     
      
-        <ul className= {HeaderS.navbar}>
+        <ul >
             
-            <li >
-                <Link className={HeaderS.link} to="/howItsWork">WIT</Link>
+            <li>
+                <Link to="/howItsWork"><p>WIT</p></Link>
             </li>
             <li>
-                <Link className={HeaderS.link} to="/apply">About</Link>
+                <Link to="/apply"><p>About</p></Link>
             </li>
             <li>
-                <Link className={HeaderS.link} to="/availableProgram">Avalaible Programs</Link><ul className= {HeaderS.nav1}>
+                <Link  to="/availableProgram"><p>Avalaible Programs</p></Link> 
+                {/* <ul className= {HeaderS.nav1}> */}
                     {/* <li>
                     <Link className={HeaderS.link} to="/artificial_intelligence">Artificial Intelligence</Link>
                     </li>
@@ -35,24 +34,30 @@ export default () => <header className={HeaderS.header}>
                     <li>
                     <Link className={HeaderS.link} to="/internet_of_things">Internet of Things</Link>
                     </li> */}
-                </ul>
+                {/* </ul> */}
             </li>
             <li>
-                <Link className={HeaderS.link} to="/about">Apply</Link><ul className= {HeaderS.nav1}>
+                <Link to="/about"><p>Apply</p></Link>
+                {/* <ul className= {HeaderS.logo}> */}
+
+                </li>
                     {/* <li>
                     <Link className={HeaderS.link} to="/thePresident">The President</Link> 
                     </li>
                     <li>
                     <Link className={HeaderS.link} to="/managementComittee">Management Comittee</Link>
                     </li> */}
-                </ul>
-            </li>
+                {/* </ul> */}
+            
             <li>
-                <Link className={HeaderS.link} to="/wit">How It Works</Link>
+                <Link to="/wit"><p> How It Works</p></Link>
             </li>
         </ul>
         
     </nav>
+    <div className= {HeaderS.logo}>
+     <Link  to="/"  ><img src={require("./piaic.svg")} width="150" height="120"  alt="" /></Link>
+    </div>
     
     
 </header>

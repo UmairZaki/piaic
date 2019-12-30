@@ -1,30 +1,182 @@
-.logo {
-    padding-left: 2em;
-    padding-top: 1.8rem;
-    position: fixed;
+body{
+    background-image: url('./president.png');
+    background-repeat: no-repeat;
+    background-position: 35px 102px;
+    background-size: 380px auto;
+    scroll-behavior: smooth;
+    
 }
 
 .title{
     text-align: left;
-    padding-left: 30rem;
-    font-size: 55px;
+    padding-left: 33rem;
+    padding-right: 5rem;
+    padding-top: 4.3rem;
+    
+    h1{
     font-weight: bold;
-    padding-top: 6rem;
-}
-
-.title2{
-    text-align: left;
-    padding-left: 30rem;
-    font-size: 30px;
-    // font-weight: bold;
-    padding-top: 0.3rem;
-}
-
-.title3{
-    text-align: left;
-    padding-left: 30rem;
-    font-size: 15px;
-    // font-weight: bold;
+    font-size: 65px;
+    padding-top: 5rem;
+    margin: 0;
+    }
+    h2{
+    font-size: 32px;
     padding-top: 0.5rem;
+    margin: 0;
+    }
+    p{
+    font-size: 16px;
+    padding-top: 1.8rem;
+    }
+}
+
+.button_padding{
+    padding-left: 61em;
+    padding-top: 7rem;
     padding-right: 3rem;
+    display: flex;
+}
+
+.button {
+    background-color: #4CAF50; 
+    border: none;
+    color: white;
+    padding: 12px 45px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 14px;
+    border-radius: 0.3rem;
+}
+.font_li{
+    font-size: 2.5rem;
+    margin: 0;
+    font-weight: bold;
+    list-style-type: none;
+    margin-left: -10px;
+    margin-top: -15px;
+    
+}
+
+.font_li2{
+    font-size: 0.6rem;
+    margin: 0;
+    font-weight: lighter;
+    list-style-type: none;
+    padding-top: 0rem;
+    margin-left: -12px;
+    margin-top: -5px;
+}
+
+.line  {
+    border-right: 2px solid black;
+    height: 55px;
+    margin-left: 30px;
+    top: 0;
+}
+
+.heading {
+    text-align: left;
+    padding-left: 26rem;
+    font-size: 34px;
+    font-weight: bold;
+    padding-top: 2rem;
+    color: grey;
+    letter-spacing: 0.9rem;
+}
+
+.parent1 {
+    margin-top: -20px;
+    margin-right: 1rem;
+  }
+
+.color {
+    display: flex;
+    // height: 100%;
+}
+
+.child1 {
+    background: linear-gradient( rgb(0, 0, 90) 25%, white 25%, white 66.6%, white 66.6%);
+    flex-grow: 1;
+    height: 180px;
+    width: 296px;
+    border-radius: 0.5rem;
+    font-size: 1.2rem;
+    margin-left: 1.9rem;
+    text-align: center;
+    line-height: 170px;
+    box-shadow: 3px 3px 4px lightgray;
+    p {
+       color: rgb(0, 0, 90);
+       font-weight: bold;
+    }
+  }
+
+  .child2 {
+    background: linear-gradient( rgb(250, 76, 105) 25%, white 25%, white 66.6%, white 66.6%);
+    flex-grow: 1;
+    height: 180px;
+    width: 296px;
+    border-radius: 0.5rem;
+    font-size: 1.2rem;
+    margin-left: 1.9rem;
+    text-align: center;
+    line-height: 170px;
+    box-shadow: 3px 3px 4px lightgray;
+    p{
+        color: rgb(250, 76, 105);
+        font-weight: bold;
+    }
+  }
+
+  .child3 {
+    background: linear-gradient( rgb(255, 238, 0) 25%, white 25%, white 66.6%, white 66.6%);
+    flex-grow: 1;
+    height: 180px;
+    width: 296px;
+    border-radius: 0.5rem;
+    font-size: 1.2rem;
+    margin-left: 1.9rem;
+    text-align: center;
+    line-height: 170px;
+    box-shadow: 3px 3px 4px lightgray;
+    p {
+        color: rgb(255, 238, 0);
+        font-weight: bold;
+    }
+  }
+
+  .child4 {
+    background: linear-gradient( rgb(82, 141, 108) 25%, white 25%, white 66.6%, white 66.6%);
+    flex-grow: 1;
+    height: 180px;
+    width: 296px;
+    border-radius: 0.5rem;
+    font-size: 1.2rem;
+    margin-left: 1.9rem;
+    text-align: center;
+    line-height: 170px;
+    box-shadow: 3px 4px 4px lightgray;
+    p {
+        color: rgb(82, 141, 108);
+        font-weight: bold;
+    }
+  }
+
+.line2 {
+    width: 100px;
+    border-bottom: 3px solid black;
+    margin-left: 4.5rem;
+    padding-top: 6rem;
+
+  }
+
+.heading2 {
+    text-align: left;
+    padding-left: 4.5rem;
+    font-size: 30px;
+    font-weight: bold;
+    margin-top: 0;
+    color: grey;
+    letter-spacing: 0.5rem;
 }

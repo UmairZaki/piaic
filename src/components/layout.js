@@ -7,8 +7,7 @@ import layoutS from './layout.module.scss'
 
 export default (props) => <div className= {layoutS.container}>
     <Header />
-    <div className= {layoutS.content}>
-     
+    <div>
      {props.children}
     </div>
     <Footer />

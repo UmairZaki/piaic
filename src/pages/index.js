@@ -2,10 +2,12 @@ import React from "react"
 // import { Link } from 'gatsby'
 import Layout from "../components/layout"
 import indexS from '../components/index.module.scss'
+// import pic1 from "../components/president.png"
 
 
 export default () => <Layout >
-    
+
+    <div className= {indexS.body}>
     <div className = {indexS.title}>
     <h1>Presidential Initiative</h1>
     
@@ -31,10 +33,13 @@ export default () => <Layout >
     <div className= {indexS.heading}>
     <p>Available Programs</p>
     </div>
+    </div>
+    
 
-    <div className={indexS.parent1}>
-      <div className= {indexS.color}>
-      
+    <div className= {indexS.parent1}>
+    
+    <div className={indexS.parent2}>
+    
       <div className= {indexS.child1}>
       <p>Artificial Intelligence</p>
       </div>    
@@ -48,35 +53,60 @@ export default () => <Layout >
       <p>Internet of Things</p>
       </div>
       </div>
-    </div>
-    
-    <div className= {indexS.line2}></div>
+      </div>
+      
+      
+      
+      <div >
+        <p className= {indexS.line2}></p>
+      </div>
     
     <div className= {indexS.heading2}>
-    <p>Programs in Development</p>
+     <p>Programs in Development</p>
+     </div >
+  
+    <div className = {indexS.parent3}>
+    <div className= {indexS.box}>
+     <p>SDN/NFV for 5G</p>
+     </div>    
+     <div className= {indexS.box}>
+     <p>AUGMENTED REALITY</p>
+     </div>
+     <div className= {indexS.box}>
+     <p>ENTREPRENEURSHIP</p>
+     </div>
+     <div className= {indexS.box}>
+     <p>MOBILE WEB SPECIALIST</p>
+     </div>
+     <div className= {indexS.box}>
+     <p>IOS</p>
+     </div>
+     <div className= {indexS.box}>
+     <p>ANDROID</p>
+     </div>
     </div>
     
-    <div class="boxed">
-    <h3>SDN/NFV for 5G</h3>
-    </div>    
-    <div class="boxed">
-    <h3>AUGMENTED REALITY</h3>
+
+    <div className= {indexS.parent4}>
+      <div className= {indexS.heading3}>
+        <p>VIDEOS</p>
+      </div>
+
     </div>
-    <div class="boxed">
-    <h3>ENTREPRENEURSHIP</h3>
+<div className= {indexS.spotlight}>
+  <div className= {indexS.image}>
+    
+      <img scr= {require("./president.png")} height="100px" width='auto'
+      alt="kjsbdkjnb"/>
+      </div>
     </div>
-    <div class="boxed">
-    <h3>MOBILE WEB SPECIALIST</h3>
-    </div>
-    <div class="boxed">
-    <h3>AUGMENTED REALITY</h3>
-    </div>
-    <div class="boxed">
-    <h3>iOS</h3>
-    </div>
-    <div class="boxed">
-    <h3>ANDROID</h3>
-    </div>
+
+  
+
+
+
+
+
     
 
 </Layout>

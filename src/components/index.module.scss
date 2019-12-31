@@ -1,10 +1,11 @@
-body{
+.body{
     background-image: url('./president.png');
     background-repeat: no-repeat;
     background-position: 35px 102px;
-    background-size: 380px auto;
+    background-size: 386px auto;
     scroll-behavior: smooth;
-    
+    background-color: rgb(228, 228, 228);
+    padding-bottom: 3rem;
 }
 
 .title{
@@ -85,17 +86,19 @@ body{
     letter-spacing: 0.9rem;
 }
 
-.parent1 {
-    margin-top: -20px;
-    margin-right: 1rem;
-  }
 
-.color {
-    display: flex;
-    // height: 100%;
+.parent1 {
+    background-color: white;
 }
 
+.parent2 {
+    padding-right: 1.8rem;
+    display: flex;
+  }
+
 .child1 {
+    flex-shrink: 0;
+    margin-top: -60px;
     background: linear-gradient( rgb(0, 0, 90) 25%, white 25%, white 66.6%, white 66.6%);
     flex-grow: 1;
     height: 180px;
@@ -112,7 +115,8 @@ body{
     }
   }
 
-  .child2 {
+.child2 {flex-shrink: 0;
+    margin-top: -60px;
     background: linear-gradient( rgb(250, 76, 105) 25%, white 25%, white 66.6%, white 66.6%);
     flex-grow: 1;
     height: 180px;
@@ -129,7 +133,9 @@ body{
     }
   }
 
-  .child3 {
+.child3 {
+    flex-shrink: 0;
+    margin-top: -60px;
     background: linear-gradient( rgb(255, 238, 0) 25%, white 25%, white 66.6%, white 66.6%);
     flex-grow: 1;
     height: 180px;
@@ -146,7 +152,9 @@ body{
     }
   }
 
-  .child4 {
+.child4 {
+    flex-shrink: 0;
+    margin-top: -60px;
     background: linear-gradient( rgb(82, 141, 108) 25%, white 25%, white 66.6%, white 66.6%);
     flex-grow: 1;
     height: 180px;
@@ -164,19 +172,110 @@ body{
   }
 
 .line2 {
+    margin-left: 4.8rem;
     width: 100px;
     border-bottom: 3px solid black;
-    margin-left: 4.5rem;
     padding-top: 6rem;
-
-  }
+    margin-bottom: 0;
+}
 
 .heading2 {
+    padding-left: 4.8rem;
     text-align: left;
-    padding-left: 4.5rem;
     font-size: 30px;
     font-weight: bold;
     margin-top: 0;
     color: grey;
     letter-spacing: 0.5rem;
 }
+
+.parent3 {
+    display: flex;
+    overflow-x: auto;  
+    scroll-behavior: smooth;
+    padding-bottom: 2rem;
+    margin-right: 5rem;
+    margin-left: 2.9rem;
+}
+
+.box {
+    overflow: hidden;
+    flex-shrink: 0;
+    margin-top: 0;
+    background: linear-gradient(to right, rgb(140, 140, 140) , rgb(46, 46, 46));
+    flex-grow: 1;
+    height: 150px;
+    width: 310px;
+    text-align: center;
+    line-height: 130px;
+    margin-left: 1.9rem;
+    p {
+        font-size: 1rem;
+        color: white;
+        font-weight:lighter;
+        letter-spacing: 0.3rem;
+    }
+}
+
+.parent4 {
+    background-color: darkslategrey;
+    margin: 0;
+    top: 0;
+}
+.heading3 {
+    font-size: 3rem;
+    font-weight:bold;
+    color: white;
+    padding-left: 3rem;
+}
+
+
+// .slideshow {
+//     display: flex;
+//     overflow-x: auto;  
+//     scroll-behavior: smooth;
+//     padding-bottom: 2rem;
+//     margin-right: 5rem;
+//     margin-left: 2.9rem;
+// }
+
+// .slide {
+//     flex-shrink: 0;
+//     margin-top: 0;
+//     background: linear-gradient(to right, rgb(140, 140, 140) , rgb(46, 46, 46));
+//     flex-grow: 1;
+//     // height: 150px;
+//     // width: 310px;
+//     // text-align: center;
+//     line-height: 130px;
+//     margin-left: 1.9rem;
+//     p {
+//         font-size: 1rem;
+//         color: white;
+//         font-weight:lighter;
+//         letter-spacing: 0.3rem;
+//     }
+// }
+.spotlight {
+    align-items: center;
+    display : flex;
+}
+.image {
+    border-radius: 0;
+    width: 45%;
+    padding-top: 1em;
+    padding-bottom: 1em;
+
+    img {
+        
+        border-radius: 0;
+        width: 100%;
+     }
+}
+
+.content {
+       max-width: 60em;
+       width: 55%;
+    }
+
+    

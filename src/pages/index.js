@@ -1,8 +1,8 @@
 import React from "react"
-// import { Link } from 'gatsby'
+import { Link } from 'gatsby'
 import Layout from "../components/layout"
 import indexS from '../components/index.module.scss'
-// import pic1 from "../components/president.png"
+import pic1 from "../components/president.png"
 
 
 export default () => <Layout >
@@ -96,8 +96,7 @@ export default () => <Layout >
 <div className= {indexS.spotlight}>
   <div className= {indexS.image}>
     
-      <img scr= {require("./president.png")} height="100px" width='auto'
-      alt="kjsbdkjnb"/>
+      <img scr= {pic1} alt="kjsbdkjnb"/>
       </div>
     </div>
 

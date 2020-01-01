@@ -24,7 +24,7 @@ export default () => <header >
   </ul>
   </li>
   <li>
-  <Link to="/availableProgram"><p>Avalaible Program</p></Link>
+  <p>Avalaible Program</p>
   <ul className={HeaderS.nav__sub_menu}>
   <li>
   <Link to="/artificial_intelligence"><p>Artificial Intelligence</p></Link>

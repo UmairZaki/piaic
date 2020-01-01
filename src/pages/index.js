@@ -42,19 +42,28 @@ export default () => <Layout >
     
       <div className= {indexS.child1}>
       <p>Artificial Intelligence</p>
+      <h1>A one year Artificial Intelligence program desing for absolute beginners.
+          Getting Pakistan ready for new era of computing enable by the rise of AI.</h1>
       </div>    
       <div className= {indexS.child2}>
       <p>Cloud Native</p>
+      <h1>A one year Cloud Computing program desing for absolute beginners.
+           Getting Pakistan ready for new era of Microservises and Multi-Cloud Native computing.</h1>
       </div>
       <div className= {indexS.child3}>
       <p>Blockchain</p>
+      <h1>A one year Blockchain program desing for absolute beginners.
+          Getting Pakistan ready for new era of Blockchain, Fintech and smart contracts.</h1>
       </div>
       <div className= {indexS.child4}>
       <p>Internet of Things</p>
+      <h1>A fifteen months IOT & AI program desing for absolute beginners.
+           Getting Pakistan ready for new era of Internet of Things and AI.</h1>
       </div>
       </div>
       </div>
       
+    
       
       
       <div >

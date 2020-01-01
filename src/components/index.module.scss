@@ -39,7 +39,7 @@
 }
 
 .button {
-    background-color: rgb(67, 204, 167) ; 
+    background: linear-gradient(to right, rgb(57, 187, 148) , rgb(131, 218, 174)); 
     border: none;
     color: white;
     padding: 12px 45px;
@@ -94,6 +94,7 @@
 .parent2 {
     padding-right: 1.8rem;
     display: flex;
+    flex-wrap: wrap;
   }
 
 .child1 {
@@ -112,8 +113,31 @@
     p {
        color: rgb(0, 0, 90);
        font-weight: bold;
+       position: absolute;
+       margin-left: 2.9rem;
+    
+    }
+    h1{
+        visibility: hidden;
+        font-size: 0.8rem;
+        color:white;
+        padding: 2.5rem;;
+        line-height: 1rem;
+        text-transform: uppercase;
     }
   }
+
+.child1:hover{
+        background: rgb(0, 0, 90);
+        opacity: 0.8;
+        p {
+            visibility: hidden;
+        }
+        h1{
+            visibility: visible;
+        }
+    }
+
 
 .child2 {flex-shrink: 0;
     margin-top: -60px;
@@ -130,8 +154,29 @@
     p{
         color: rgb(250, 76, 105);
         font-weight: bold;
+        position: absolute;
+        margin-left: 5rem;
+    }
+    h1{
+        visibility: hidden;
+        font-size: 0.8rem;
+        color:white;
+        padding: 2.5rem;;
+        line-height: 1rem;
+        text-transform: uppercase;
     }
   }
+
+.child2:hover{
+    background: rgb(250, 76, 105);
+    opacity: 0.8;
+    p {
+        visibility: hidden;
+    }
+    h1{
+        visibility: visible;
+    }
+}
 
 .child3 {
     flex-shrink: 0;
@@ -147,10 +192,30 @@
     line-height: 170px;
     box-shadow: 3px 3px 4px lightgray;
     p {
-        color: rgb(255, 238, 0);
+        color: rgb(197, 184, 0);
         font-weight: bold;
+        position: absolute;
+        margin-left: 6rem;
+    }
+    h1{
+        visibility: hidden;
+        font-size: 0.8rem;
+        color:white;
+        padding: 2.5rem;;
+        line-height: 1rem;
+        text-transform: uppercase;
     }
   }
+.child3:hover{
+    background: rgb(197, 184, 0);
+    opacity: 0.8;
+    p {
+        visibility: hidden;
+    }
+    h1{
+        visibility: visible;
+    }
+}
 
 .child4 {
     flex-shrink: 0;
@@ -168,8 +233,28 @@
     p {
         color: rgb(82, 141, 108);
         font-weight: bold;
+        position: absolute;
+        margin-left: 4rem;
+    }
+    h1{
+        visibility: hidden;
+        font-size: 0.8rem;
+        color:white;
+        padding: 2.5rem;;
+        line-height: 1rem;
+        text-transform: uppercase;
     }
   }
+.child4:hover{
+    background: rgb(82, 141, 108);
+    opacity: 0.8;
+    p {
+        visibility: hidden;
+    }
+    h1{
+        visibility: visible;
+    }
+}
 
 .line2 {
     margin-left: 4.8rem;

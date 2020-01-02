@@ -266,26 +266,64 @@ export default () => <Layout >
   <div className= {indexS.address2}>
   <h1>Locations</h1>
   <h1>PIAIC Headquarters</h1>
-  <a href="https://www.google.com/maps/place/Presidential+Initiative+for+Artificial+Intelligence+and+Computing+(PIAIC)+Headquarters/@24.8613137,67.0711981,17z/data=!3m1!4b1!4m5!3m4!1s0x3eb33ff89c73993d:0x91c53ba630675f8!8m2!3d24.8612787!4d67.0733723"><p>Plot 245/2 M, Block 6 PECHS, Karachi, Sindh 75100, Pakistan</p></a>
-  <p>+92-308-2220203 (WhatsApp as well)</p>
-  <h1>PIAIC Helpline</h1>
-  <p>+92-308-2220203 (WhatsApp as well)</p>
-  <h1>Connect with us</h1>
+  <div className= {indexS.add}>
+  <div className= {indexS.x}><img src={require("../components/12.png")} width="auto" height="25px" bg="rgb(36, 49, 53)" alt="klnaznc" /></div>
+  <div className= {indexS.x}><a href="https://www.google.com/maps/place/Presidential+Initiative+for+Artificial+Intelligence+and+Computing+(PIAIC)+Headquarters/@24.8613137,67.0711981,17z/data=!3m1!4b1!4m5!3m4!1s0x3eb33ff89c73993d:0x91c53ba630675f8!8m2!3d24.8612787!4d67.0733723"><p>Plot 245/2 M, Block 6 PECHS, Karachi, Sindh 75100, Pakistan</p></a></div>
   </div>
+  <div className= {indexS.add}>
+  <div className= {indexS.x}><img src={require("../components/10.png")} width="auto" height="25px" bg="rgb(36, 49, 53)" alt="klnaznc" /></div>
+  <div className= {indexS.x}><p>+92-308-2220203 (WhatsApp as well)</p></div>
+  </div>
+  <h1>PIAIC Helpline</h1>
+  <div className= {indexS.add}>
+  <div className= {indexS.x}><img src={require("../components/10.png")} width="auto" height="25px" bg="rgb(36, 49, 53)" alt="klnaznc" /></div>
+  <div className= {indexS.x}><p>+92-308-2220203 (WhatsApp as well)</p></div>
+  </div>
+  <h1>Connect with us</h1>
+  <div className= {indexS.add}>
+  <div className= {indexS.x}><a href= "https://www.youtube.com/channel/UC2Makv_pLAtvrjHNgg-pBLg" target = "_blank"><img src={require("../components/8.png")} width="auto" height="25px" bg="rgb(36, 49, 53)" alt="klnaznc" /></a></div>
+  <div className= {indexS.x}><a href= "https://www.facebook.com/groups/piaic/" target = "_blank"><img src={require("../components/4.jpg")} width="auto" height="25px" bg="rgb(36, 49, 53)" alt="klnaznc" /></a></div>
+  </div>
+  </div>
+
 
   <div className= {indexS.address3}>
   <h1>Karachi Field Office</h1>
-  <a href="https://www.google.com/maps/place/Saylani+Welfare+Head+Office./@24.8827229,67.0659646,17z/data=!3m1!4b1!4m5!3m4!1s0x3eb33eebb56aaaab:0x27ab04809ef5020a!8m2!3d24.8827229!4d67.0681533" target="_blank"><p>A-25, Bahadurabad Chowrangi, Karachi, Sindh 74800, Pakistan</p></a>
-  <p>+92-311-1729526</p>
+  <div className= {indexS.add}>
+  <div className= {indexS.x}><img src={require("../components/12.png")} width="auto" height="25px" bg="rgb(36, 49, 53)" alt="klnaznc" /></div>
+  <div className= {indexS.x}><a href="https://www.google.com/maps/place/Saylani+Welfare+Head+Office./@24.8827229,67.0659646,17z/data=!3m1!4b1!4m5!3m4!1s0x3eb33eebb56aaaab:0x27ab04809ef5020a!8m2!3d24.8827229!4d67.0681533" target="_blank"><p>A-25, Bahadurabad Chowrangi, Karachi, Sindh 74800, Pakistan</p></a></div>
+  </div>
+  <div className= {indexS.add}>
+  <div className= {indexS.x}><img src={require("../components/10.png")} width="auto" height="25px" bg="rgb(36, 49, 53)" alt="klnaznc" /></div>
+  <div className= {indexS.x}><p>+92-311-1729526</p></div>
+  </div>
   <h1>Rawalpindi Field Office</h1>
-  <a href="https://www.google.com/maps/place/33%C2%B037'58.2%22N+73%C2%B004'04.2%22E/@33.6328413,73.0656368,17z/data=!3m1!4b1!4m5!3m4!1s0x0:0x0!8m2!3d33.6328413!4d73.0678255?hl=en" target="_blank"><p>4th-B Rd, Satellite Town, Rawalpindi, Punjab 46300</p></a>
-  <p>051-4940669 / 0336-6660215</p>
+  <div className= {indexS.add}>
+  <div className= {indexS.x}><img src={require("../components/12.png")} width="auto" height="25px" bg="rgb(36, 49, 53)" alt="klnaznc" /></div>
+  <div className= {indexS.x}><a href="https://www.google.com/maps/place/33%C2%B037'58.2%22N+73%C2%B004'04.2%22E/@33.6328413,73.0656368,17z/data=!3m1!4b1!4m5!3m4!1s0x0:0x0!8m2!3d33.6328413!4d73.0678255?hl=en" target="_blank"><p>4th-B Rd, Satellite Town, Rawalpindi, Punjab 46300</p></a></div>
+  </div>
+  <div className= {indexS.add}>
+  <div className= {indexS.x}><img src={require("../components/10.png")} width="auto" height="25px" bg="rgb(36, 49, 53)" alt="klnaznc" /></div>
+  <div className= {indexS.x}><p>051-4940669 / 0336-6660215</p></div>
+  </div>
   <h1>Islamabad Field Office</h1>
-  <a href="https://www.google.com/maps/place/33%C2%B041'47.0%22N+73%C2%B000'43.7%22E/@33.696386,73.0099453,17z/data=!3m1!4b1!4m5!3m4!1s0x0:0x0!8m2!3d33.696386!4d73.012134" target="_blank"><p>F-10 Markaz F 10/3 F-10, Islamabad, Islamabad Capital Territory</p></a>
-  <p>051-2223191 (WhatsApp as well)</p>
+  <div className= {indexS.add}>
+  <div className= {indexS.x}><img src={require("../components/12.png")} width="auto" height="25px" bg="rgb(36, 49, 53)" alt="klnaznc" /></div>
+  <div className= {indexS.x}><a href="https://www.google.com/maps/place/33%C2%B041'47.0%22N+73%C2%B000'43.7%22E/@33.696386,73.0099453,17z/data=!3m1!4b1!4m5!3m4!1s0x0:0x0!8m2!3d33.696386!4d73.012134" target="_blank"><p>F-10 Markaz F 10/3 F-10, Islamabad, Islamabad Capital Territory</p></a></div>
+  </div>
+  <div className= {indexS.add}>
+  <div className= {indexS.x}><img src={require("../components/10.png")} width="auto" height="25px" bg="rgb(36, 49, 53)" alt="klnaznc" /></div>
+  <div className= {indexS.x}><p>051-2223191 (WhatsApp as well)</p></div>
+  </div>
   <h1>Faisalabad Field Office</h1>
-  <a href="https://www.google.com/maps/place/Saylani+Mass+Training+Faisalabad/@31.411708,73.0865596,17z/data=!3m1!4b1!4m5!3m4!1s0x3922681d444b32e1:0xc3887a0e53e91f7!8m2!3d31.411708!4d73.0887483" target="_blank"><p>Saylani House, 3rd Floor, Lal Mill Chowk, Factory Area, Faisalabad, Punjab</p></a>
-  <p>(041) 2417281 / 0337 8659969 (WhatsApp as well)</p>
+  <div className= {indexS.add}>
+  <div className= {indexS.x}><img src={require("../components/12.png")} width="auto" height="25px" bg="rgb(36, 49, 53)" alt="klnaznc" /></div>
+  <div className= {indexS.x}><a href="https://www.google.com/maps/place/Saylani+Mass+Training+Faisalabad/@31.411708,73.0865596,17z/data=!3m1!4b1!4m5!3m4!1s0x3922681d444b32e1:0xc3887a0e53e91f7!8m2!3d31.411708!4d73.0887483" target="_blank"><p>Saylani House, 3rd Floor, Lal Mill Chowk, Factory Area, Faisalabad, Punjab</p></a></div>
+  </div>
+  <div className= {indexS.add}>
+  <div className= {indexS.x}><img src={require("../components/10.png")} width="auto" height="25px" bg="rgb(36, 49, 53)" alt="klnaznc" /></div>
+  <div className= {indexS.x}><p>(041) 2417281 / 0337 8659969 (WhatsApp as well)</p></div>
+  </div>
   </div>
   
 

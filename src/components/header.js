@@ -13,7 +13,7 @@ export default () => <header >
   <Link to="/wit"><p>WIT</p></Link>
   </li>
   <li>
-  <Link to="/about"><p>About</p></Link>
+  <p>About</p>
   <ul className={HeaderS.nav__sub_menu}>
   <li>
   <Link to="/thePresident"><p>The President</p></Link>
@@ -30,18 +30,18 @@ export default () => <header >
   <Link to="/artificial_intelligence"><p>Artificial Intelligence</p></Link>
   </li>
   <li>
-  <Link to="/cloud_native"><p>Cloud Native</p></Link>
+  <Link to="/cloud_native"><p>Cloud Native and Mobile Web Computing</p></Link>
   </li>
   <li>
   <Link to="/blockchain"><p>Blockchain</p></Link>
   </li>
   <li>
-  <Link to="/internet_of_things"><p>Internet of Things</p></Link>
+  <Link to="/internet_of_things"><p>Internet of Things and AI</p></Link>
   </li>
   </ul>
   </li>
   <li>
-  <Link to="/apply"><p>Apply</p></Link>
+  <a href="https://portal.piaic.org/signup" target = "_blank"> <p>Apply</p></a>
   </li>
   <li>
   <Link to="/howItsWork"><p>How It Works</p></Link>

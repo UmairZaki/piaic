@@ -255,10 +255,10 @@ export default () => <Layout>
 	</div>
     </div>
 
-     <div className= {IOT.verticalLine7}></div>
+     <div className= {IOT.verticalLine8}></div>
 
     <div className={IOT.circle_container}>
-    <div className={IOT.circle_main6}>
+    <div className={IOT.circle_main7}>
     <div className={IOT.circle_text_container}>
     <div className = {IOT.circle_text2}>6</div>
     </div>

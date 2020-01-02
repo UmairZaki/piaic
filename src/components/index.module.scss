@@ -110,12 +110,16 @@
     text-align: center;
     line-height: 170px;
     box-shadow: 3px 3px 4px lightgray;
-    p {
+    button {
+       height: 180px;
+       width: 296px;
+       border: none;
+       background: none;
+       font-size: 1.2rem;
        color: rgb(0, 0, 90);
        font-weight: bold;
        position: absolute;
-       margin-left: 2.9rem;
-    
+       margin-left: -9.25rem;
     }
     h1{
         visibility: hidden;
@@ -130,8 +134,12 @@
 .child1:hover{
         background: rgb(0, 0, 90);
         opacity: 0.8;
+        button {
+            border: none;
+            color:rgba(0, 0, 90, 0.8);
+        }
         p {
-            visibility: hidden;
+            margin-top: -4rem;
         }
         h1{
             visibility: visible;
@@ -151,12 +159,17 @@
     text-align: center;
     line-height: 170px;
     box-shadow: 3px 3px 4px lightgray;
-    p{
+    button {
+        height: 180px;
+        width: 296px;
+        border: none;
+        background: none;
+        font-size: 1.2rem;
         color: rgb(250, 76, 105);
         font-weight: bold;
         position: absolute;
-        margin-left: 5rem;
-    }
+        margin-left: -9.25rem;
+     }
     h1{
         visibility: hidden;
         font-size: 0.8rem;
@@ -170,8 +183,12 @@
 .child2:hover{
     background: rgb(250, 76, 105);
     opacity: 0.8;
+    button {
+        border: none;
+        color:rgba(250, 76, 105, 0.8);
+    }
     p {
-        visibility: hidden;
+        margin-top: -4rem;
     }
     h1{
         visibility: visible;
@@ -191,12 +208,17 @@
     text-align: center;
     line-height: 170px;
     box-shadow: 3px 3px 4px lightgray;
-    p {
-        color: rgb(197, 184, 0);
+    button {
+        height: 180px;
+        width: 296px;
+        border: none;
+        background: none;
+        font-size: 1.2rem;
+        color: rgb(255, 238, 0);
         font-weight: bold;
         position: absolute;
-        margin-left: 6rem;
-    }
+        margin-left: -9.25rem;
+     }
     h1{
         visibility: hidden;
         font-size: 0.8rem;
@@ -207,10 +229,14 @@
     }
   }
 .child3:hover{
-    background: rgb(197, 184, 0);
+    background: rgb(255, 238, 0);
     opacity: 0.8;
+    button {
+        border: none;
+        color:rgba(255, 238, 0, 0.8);
+    }
     p {
-        visibility: hidden;
+        margin-top: -4rem;
     }
     h1{
         visibility: visible;
@@ -230,12 +256,17 @@
     text-align: center;
     line-height: 170px;
     box-shadow: 3px 4px 4px lightgray;
-    p {
+    button {
+        height: 180px;
+        width: 296px;
+        border: none;
+        background: none;
+        font-size: 1.2rem;
         color: rgb(39, 133, 139);
         font-weight: bold;
         position: absolute;
-        margin-left: 4rem;
-    }
+        margin-left: -9.25rem;
+     }
     h1{
         visibility: hidden;
         font-size: 0.8rem;
@@ -246,10 +277,14 @@
     }
   }
 .child4:hover{
-    background: rgb(82, 141, 108);
+    background: rgb(39, 133, 139);
     opacity: 0.8;
+    button {
+        border: none;
+        color:rgba(39, 132, 139, 0.8);
+    }
     p {
-        visibility: hidden;
+        margin-top: -4rem;
     }
     h1{
         visibility: visible;
@@ -502,4 +537,70 @@
     min-width: 100px;
     background-image: url("https://i.ytimg.com/vi/_rUQ301EJAo/hqdefault.jpg?sqp=-oaymwEZCPYBEIoBSFXyq4qpAwsIARUAAIhCGAFwAQ==&rs=AOn4CLAtBZodxxHyobIDP13zgWTQ92E-hQ");
     }
-    
+
+.head {
+    display: flex;
+    background: rgb(36, 49, 53);
+}
+
+.address {
+    text-decoration: none;
+    padding-left: 4rem;
+    padding-top: 3rem;
+    margin-right: 8rem;
+    h1{
+        font-size: 1rem;
+        color: white;
+        font-weight: lighter;
+        margin-right: 1rem;
+        margin-top: 2rem;
+    }
+    p{
+        font-size: 0.7rem;
+        color: white;
+        font-weight: lighter;
+    }
+}
+
+.address2 {
+    background: rgb(36, 49, 53);
+    text-decoration: none;
+    padding-left: 4rem;
+    padding-top: 3rem;
+    margin-right: 8rem;
+    h1{
+        font-size: 1rem;
+        color: white;
+        font-weight: lighter;
+        margin-bottom: 2rem;
+        margin-top: 2rem;
+    }
+    p{
+        font-size: 0.7rem;
+        color: white;
+        font-weight: lighter;
+    }
+}
+
+.address3 {
+    background: rgb(36, 49, 53);
+    text-decoration: none;
+    padding-left: 4rem;
+    padding-top: 2rem;
+    margin-right: 4rem;
+    margin-top: 3rem;
+    margin-bottom: 4rem;
+    h1{
+        font-size: 1rem;
+        color: white;
+        font-weight: lighter;
+        margin-bottom: 2rem;
+        margin-top: 2rem;
+    }
+    p{
+        font-size: 0.7rem;
+        color: white;
+        font-weight: lighter;
+    }
+}
+

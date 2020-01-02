@@ -3,9 +3,9 @@ import React from "react"
 import footerS from "./footer.module.scss"
 
 export default () => <footer className= {footerS.bar}>
-        <h1>&copy; 2019 PIAIC. All Rights Reserved.</h1>
+        <h1>&copy; 2019 PIAIC. All rights reserved.</h1>
         <div className= {footerS.logo}>
-          <p>Powered By</p>
+          <p>Powered by</p>
      <a href="https://www.panacloud.ai/" target = "_blank" ><img src={require("./panacloud.png")} width="80" height="auto"  alt="klnaznc" /></a>
     </div>
     

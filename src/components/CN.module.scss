@@ -67,8 +67,7 @@
 }
 
 .box2 {
-    background-color: rgb(250, 76, 105);
-    opacity: 33%;
+    background-color: rgba(250, 76, 105, 0.333);
     flex-grow: 1;
     width: 250px;
     height: 270px;
@@ -91,8 +90,7 @@
 }
 
 .box3 {
-    background-color: rgb(250, 76, 105);
-    opacity: 66%;
+    background-color: rgba(250, 76, 105, 0.666);
     flex-grow: 1;
     width: 250px;
     height: 270px;

@@ -1,23 +1,23 @@
 .heading {
-    background-color: rgb(0, 0, 90);
+    background-color: rgb(255, 238, 0);
     text-align: center;
     height: 400px;
     width: 100%;
     padding-top: 12rem;
     h1 {
         font-size: 4.5rem;
-        color: white;
+        color: black;
     }
     p {
         margin-top: -2rem;
         font-size: 0.95rem;
-        color: white;
+        color: black;
         font-weight: bold;
     }
     h2 {
         margin-top: -1rem;
         font-size: 0.95rem;
-        color: white;
+        color: black;
         font-weight: bold;
     }
 }
@@ -36,12 +36,6 @@
         font-size: 1.2rem;
         color: rgb(0, 0, 90);
         font-weight: bold;
-    }
-    h2{
-        font-size: 1.2rem;
-        color: rgb(0, 0, 90);
-        font-weight: bold;
-        margin-top: -1rem;
     }
 }
 
@@ -62,18 +56,18 @@
     h1{
         padding-top: 4.5rem;
         font-size: 1.9rem;
-        color:rgb(0, 0, 90);
+        color:black;
         font-weight: bold;
     }
     p {
         font-size: 0.8rem;
-        color:rgb(0, 0, 90);
+        color:black;
         font-weight: lighter;
     }
 }
 
 .box2 {
-    background-color: rgba(0, 0, 90, 0.333);
+    background-color: rgba(255, 238, 0, 0.333);
     flex-grow: 1;
     width: 250px;
     height: 270px;
@@ -85,18 +79,18 @@
     h1{
         padding-top: 4.5rem;
         font-size: 1.9rem;
-        color:white;
+        color:black;
         font-weight: bold;
     }
     p {
         font-size: 0.8rem;
-        color:white;
+        color:black;
         font-weight: lighter;
     }
 }
 
 .box3 {
-    background-color: rgba(0, 0, 90, 0.666);
+    background-color: rgba(255, 238, 0, 0.666);
     flex-grow: 1;
     width: 250px;
     height: 270px;
@@ -108,18 +102,18 @@
     h1{
         padding-top: 4.5rem;
         font-size: 1.9rem;
-        color:white;
+        color:black;
         font-weight: bold;
     }
     p {
         font-size: 0.8rem;
-        color:white;
+        color:black;
         font-weight: lighter;
     }
 }
 
 .box4 {
-    background-color: rgb(0, 0, 90);
+    background-color: rgb(255, 238, 0);
     flex-grow: 1;
     width: 250px;
     height: 270px;
@@ -131,12 +125,12 @@
     h1{
         padding-top: 4.5rem;
         font-size: 1.9rem;
-        color:white;
+        color:black;
         font-weight: bold;
     }
     p {
         font-size: 0.8rem;
-        color:white;
+        color:black;
         font-weight: lighter;
     }
 }
@@ -173,11 +167,11 @@
     background-color: white;
     flex-grow: 1;
     width: 460px;
-    height: 70px;
+    height: 60px;
     flex-shrink: 0;
     border-radius: 0.4rem;
     text-align: left;
-    margin-bottom: 20rem;
+    margin-bottom: 24rem;
     box-shadow: 0 0 25px lightgray;
     padding: 2.5rem;
     h1{
@@ -197,11 +191,11 @@
     background-color: white;
     flex-grow: 1;
     width: 460px;
-    height: 90px;
+    height: 130px;
     flex-shrink: 0;
     border-radius: 0.4rem;
     text-align: left;
-    margin-bottom: 22rem;
+    margin-bottom: 25rem;
     box-shadow: 0 0 25px lightgray;
     padding: 2.5rem;
     h1{
@@ -221,7 +215,7 @@
     background-color: white;
     flex-grow: 1;
     width: 460px;
-    height: 90px;
+    height: 60px;
     flex-shrink: 0;
     border-radius: 0.4rem;
     margin-bottom: -2rem;
@@ -251,7 +245,7 @@
     background-color: white;
     flex-grow: 1;
     width: 460px;
-    height: 90px;
+    height: 160px;
     flex-shrink: 0;
     border-radius: 0.4rem;
     margin-bottom: 17rem;
@@ -275,10 +269,10 @@
     background-color: white;
     flex-grow: 1;
     width: 460px;
-    height: 50px;
+    height: 120px;
     flex-shrink: 0;
     border-radius: 0.4rem;
-    margin-bottom: 22rem;
+    margin-bottom: 20rem;
     text-align: left;
     box-shadow: 0 0 25px lightgray;
     padding: 2.5rem;
@@ -300,7 +294,7 @@
     flex-direction: column;
 }
 .verticalLine1 {
-    border-left:thick solid rgb(0, 0, 90);
+    border-left:thick solid rgb(255, 238, 0);
     margin-bottom: 15rem;
     margin-top: 4.5rem;
     height: 17.5rem;
@@ -319,7 +313,7 @@
 	width : 100%;
 	height : 100%;
 	border-radius : 50%;
-	border : 2px solid rgb(0, 0, 90);	
+	border : 2px solid rgb(255, 238, 0);	
 	margin : 0;
     padding : 0;
     margin-left: 1.5rem;
@@ -351,7 +345,7 @@
         width : 100%;
         height : 100%;
         border-radius : 50%;
-        border : 2px solid rgb(0, 0, 90);	
+        border : 2px solid rgb(255, 238, 0);	
         margin : 0;
         padding : 0;
         margin-left: 1.5rem;
@@ -359,20 +353,27 @@
     }
 
 .verticalLine2 {
-        border-left:thick solid rgb(0, 0, 90);
+        border-left:thick solid rgb(255, 238, 0);
         margin-bottom: 15rem;
         margin-top: -14.8rem;
         height: 180px;
         margin-left: 3.6rem;
          } 
 
+.verticalLine6 {
+            border-left:thick solid rgb(255, 238, 0);
+            margin-bottom: 15rem;
+            margin-top: -14.8rem;
+            height: 100px;
+            margin-left: 3.6rem;
+             } 
+
 .circle_main3 {
             width : 100%;
             height : 100%;
             border-radius : 50%;
-            border : 2px solid rgb(0, 0, 90);
-            background-color: rgb(0, 0, 90);
-            opacity: 33%;	
+            border : 2px solid rgba(255, 238, 0, 0.333);
+            background-color: rgba(255, 238, 0, 0.333);	
             margin : 0;
             padding : 0;
             margin-left: 1.5rem;
@@ -380,7 +381,7 @@
         }
 
 .verticalLine3 {
-            border-left:thick solid rgb(0, 0, 90);
+            border-left:thick solid rgb(255, 238, 0);
             margin-bottom: 15rem;
             margin-top: -14.8rem;
             height: 190px;
@@ -388,16 +389,23 @@
              } 
 
 .verticalLine4 {
-                border-left:thick solid rgb(0, 0, 90);
+                border-left:thick solid rgb(255, 238, 0);
                 margin-bottom: 15rem;
                 margin-top: -14.8rem;
-                height: 220px;
+                height: 250px;
                 margin-left: 3.6rem;
                  } 
+.verticalLine7 {
+                    border-left:thick solid rgb(255, 238, 0);
+                    margin-bottom: 15rem;
+                    margin-top: -14.8rem;
+                    height: 350px;
+                    margin-left: 3.6rem;
+                     } 
 
 .verticalLine5 {
                     
-    border-left:thick solid rgb(0, 0, 90);
+    border-left:thick solid rgb(255, 238, 0);
     margin-bottom: 14.5rem;
     margin-top: -14.8rem;
     height: 210px;
@@ -406,7 +414,7 @@
 
 .circle_text2 {
         font: 17px "Tahoma", Arial, Serif;
-        color: white;	
+        color: black;	
         text-align : center;
         position : relative;
         top : 50%;
@@ -417,9 +425,8 @@
         width : 100%;
         height : 100%;
         border-radius : 50%;
-        border : 2px solid rgb(0, 0, 90);
-        background-color: rgb(0, 0, 90);
-        opacity: 66%;	
+        border : 2px solid rgba(255, 238, 0, 0.666);
+        background-color: rgba(255, 238, 0, 0.666);	
         margin : 0;
         padding : 0;
         margin-left: 1.5rem;
@@ -430,8 +437,8 @@
         width : 100%;
         height : 100%;
         border-radius : 50%;
-        border : 2px solid rgb(0, 0, 90);
-        background-color: rgb(0, 0, 90);	
+        border : 2px solid rgb(255, 238, 0);
+        background-color: rgb(255, 238, 0);	
         margin : 0;
         padding : 0;
         margin-left: 1.5rem;

@@ -103,77 +103,82 @@ export default () => <Layout >
       </iframe>
       </div>
       <div className = {indexS.vidlistbox}>
-        <div class="PresidentSays-video-list">
+        <div className={indexS.PresidentSaysvideolist}>
           <ul className={indexS.vidllist}>
             <li className={indexS.vidobject} >
-              <div class="PresidentSaysVideo-video-list-flexbox">
-              <div className={indexS.testing} ></div>
-                <div className={indexS.presidentSays}></div>
-                <div class="PresidentSays-video-list-content ">
-                  <h4 class="PresidentSaysVideo-video-list-onVideo">
+              <div className={indexS.PresidentSaysVideoflexbox}>
+              <div className={indexS.vidlistimg1} ></div>
+                <div className={indexS.vidlistcontent}>
+                  <h4>
                     PIAIC Classes Coming Soon!</h4>
                   <p>The mission of PIAIC is to reshape Pakistan by revolutionizing education, research, and business by adopting latest, cutting-edge technologies.</p>
                 </div>
               </div>
             </li>
             <li className={indexS.vidobject} >
-              <div class="PresidentSaysVideo-video-list-flexbox">
-              <div className={indexS.presidentSays}></div>
-                <div class="PresidentSays-video-list-content ">
+            <div className={indexS.PresidentSaysVideoflexbox}>
+            <div className={indexS.vidlistimg2} ></div>
+              <div className={indexS.vidlistcontent}>
                   <h4 class="">Teaser 2: PIAIC Classes Coming Soon</h4>
                   <p>The mission of PIAIC is to reshape Pakistan by revolutionizing education, research, and business by adopting latest, cutting-edge technologies.</p>
                   </div>
                   </div>
                   </li>
                   <li className={indexS.vidobject} >
-                    <div class="PresidentSaysVideo-video-list-flexbox">
-                    <div className={indexS.presidentSays}></div>
-                      <div class="PresidentSays-video-list-content ">
+                  <div className={indexS.PresidentSaysVideoflexbox}>          
+                      <div className={indexS.vidlistimg3} ></div>
+
+                    <div className={indexS.vidlistcontent}>
                         <h4 class="">PIAIC Intro - Full Version</h4>
                         <p>Official intro video of the PIAIC. Messages from President Dr. Arif Alvi, Kazi Rahat Ali, Hunaid Lakhani, Sulaiman S. Mehdi, and Zia Ullah Khan.</p>
                         </div>
                         </div>
                         </li>
                         <li className={indexS.vidobject} >
-                                  <div class="PresidentSaysVideo-video-list-flexbox">
-                                  <div className={indexS.presidentSays}></div>
-                                    <div class="PresidentSays-video-list-content ">
+                        <div className={indexS.PresidentSaysVideoflexbox}>           
+                           <div className={indexS.vidlistimg4} ></div>
+
+                                  <div className={indexS.vidlistcontent}>
                                       <h4 class="">PTV Coverage of PIAIC Entry Test</h4>
                                       <p>PTV News coverage of 1st Entrance Exam of the PIAIC in Karachi</p>
                                       </div>
                                       </div>
                                       </li>
                                       <li className={indexS.vidobject} >
-                                        <div class="PresidentSaysVideo-video-list-flexbox">
-                                        <div className={indexS.presidentSays}></div>
-                                          <div class="PresidentSays-video-list-content ">
+                                      <div className={indexS.PresidentSaysVideoflexbox}>          
+                                          <div className={indexS.vidlistimg5} ></div>
+
+                                        <div className={indexS.vidlistcontent}>
                                             <h4 class="">PIAIC Launch - President Arif Alvi Address</h4>
                                             <p>Presidential address at the launch of the Presidential Initiative for Artificial Intelligence and Computing on December 9, 2018.</p>
                                             </div>
                                             </div>
                                             </li>
                                             <li className={indexS.vidobject} >
-                                              <div class="PresidentSaysVideo-video-list-flexbox">
-                                              <div className={indexS.presidentSays}></div>
-                                                <div class="PresidentSays-video-list-content ">
+                                            <div className={indexS.PresidentSaysVideoflexbox}>          
+                                                <div className={indexS.vidlistimg6} ></div>
+
+                                              <div className={indexS.vidlistcontent}>
                                                   <h4 class="">Zia Khan Interview on Bol News</h4>
                                                  <p>Published on Dec 31, 2018</p>
                                                   </div>
                                                   </div>
                                                   </li>
                                                   <li className={indexS.vidobject} >
-                  <div class="PresidentSaysVideo-video-list-flexbox">
-                  <div className={indexS.presidentSays}></div>
-                    <div class="PresidentSays-video-list-content ">
+                                                  <div className={indexS.PresidentSaysVideoflexbox}>            
+                                                    <div className={indexS.vidlistimg7} ></div>
+
+                  <div className={indexS.vidlistcontent}>
                   <h4 class="">PTV Coverage of PIAIC Launch Event</h4>
                   <p>PTV Coverage of PIAIC Launch Event on December 9, 2018</p>
                 </div>
               </div>
             </li>
             <li className={indexS.vidobject} >
-              <div class="PresidentSaysVideo-video-list-flexbox">
-              <div className={indexS.presidentSays}></div>
-                <div class="PresidentSays-video-list-content ">
+            <div className={indexS.PresidentSaysVideoflexbox}>              
+            <div className={indexS.vidlistimg8} ></div>
+
+              <div className={indexS.vidlistcontent}>
                 <h4 class="">LIVE: President of Pakistan Dr Arif Alvi's exclusive interview with Nadeem Malik, October 29, 2018</h4>
                 <p>Streamed live on Oct 29, 2018</p>
                 </div>
@@ -186,14 +191,61 @@ export default () => <Layout >
     </div>
     </div>
   </div>
+
+  <div className={indexS.super}>
+  <h1>Images</h1>
+  <div className={indexS.spotlight2}>
+  <div className={indexS.spotlight}>
+  <div className={indexS.image}>
+  </div>
+  <div className={indexS.text}>
+  <h2>President launches the PIAIC website</h2>
+  <p>President Dr. Arif Alvi launching thae official website of PIAIC on December 9, 2018.From left to right: Mr. Adil Altaf (Director Panacloud), Mr. Zia Ullah Khan (CEO Panacloud), Mr. Hunaid Lakhani (Chancellor Iqra University),President Dr. Arif Alvi, Mr. Suleman S. Mehdi (Chairman Pakistan Stock Exchange), Mr. Zeeshan Hanif (CTO Panacloud), Moulana Bashir Farooqui (Founder Saylani Welfare Trust), Mr. Yousuf Lakhani (President Saylani Walfare Trust).</p>
+  </div>
+  </div>
+
+  <div className={indexS.spotlight}>
+  <div className={indexS.image2}>
+  </div>
+  <div className={indexS.text}>
+  <h2>First meeting with thae president</h2>
+  <p> First official PIAIC meeting on November 1st, 2018. From left to right: Mr. Zia Ullah Khan (CEO Panacloud), Mr. Kazi Rahat Ali (General Secretary PIAIC), President Dr. Arif Alvi, Mr. Yousuf Lakhani (President Saylani Welfare International Trust), Mr. Muhammad Ghazzai (COO Saylani Welfare International Trust).</p>
+  </div>
+  </div>
   
   <div className={indexS.spotlight}>
-    <div className={indexS.image}>
-
-      <img scr={require("./president.png")} height="100px" width='auto'
-        alt="kjsbdkjnb" />
-    </div>
+  <div className={indexS.image3}>
   </div>
+  <div className={indexS.text2}>
+  <h2>Meeting with chief secretary sindh</h2>
+  <p> Meeting with Chief Secretary of Sindh, Mr. Mumtaz Ali Shah o December 28th, where assured the PIAIC management team of his full support for national caused and offered space at all public universities in Sindh.</p>
+  </div>
+  </div>
+  
+  </div>
+  </div>
+
+  <div className={indexS.partner}>
+  <h1>Strategic Partners</h1>
+  <div className={indexS.logos}>
+  <div className={indexS.items}>
+  <a href="https://www.panacloud.ai/" target = "_blank" ><img src={require("../components/1.svg")} width="130" height="auto"  alt="klnaznc" /></a>
+  </div>
+
+  <div className={indexS.items}>
+  <a href="https://www.psx.com.pk/" target = "_blank" ><img src={require("../components/2.png")} width="60" height="auto"  alt="klnaznc" /></a>
+  </div>
+
+  <div className={indexS.items}>
+  <a href="http://www.saylaniwelfare.com/home" target = "_blank" ><img src={require("../components/3.png")} width="200" height="auto"  alt="klnaznc" /></a>
+  </div>
+
+  </div>
+
+
+  </div>
+
+
 
   <div className= {indexS.head}>
   
@@ -236,9 +288,9 @@ export default () => <Layout >
   <p>(041) 2417281 / 0337 8659969 (WhatsApp as well)</p>
   </div>
   
-  </div>
 
-  
+
+  </div>
 
 </Layout>
 
